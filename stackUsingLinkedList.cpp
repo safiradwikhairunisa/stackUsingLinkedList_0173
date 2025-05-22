@@ -103,6 +103,11 @@ int main()
                 {
                     stack.pop(); //pop the top element from the stack
                 }
+                else
+                {
+                    cout << "Satck is empety. cannot pop." << endl;
+                }
+                break;
         }
     }
 }
