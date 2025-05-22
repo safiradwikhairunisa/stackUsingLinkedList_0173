@@ -46,6 +46,19 @@ class stack
 
         node* temp = top; //create a temporary pointer to the top node
         top = top->next; //update the top pointer to the next node
-        cout << "Popped value: " << top->data << endl;
-    } 
+        cout << "Popped value: " << top->data << endl; 
+    }
+
+    //peek/top operation: revtrieve the value of the topmost element without removing
+    void peek()
+    {
+        if (top == NULL)
+        {
+            cout << "List is empty." << endl;
+        }
+        else
+        {
+            node *current = top;
+        }
+    }
 }
